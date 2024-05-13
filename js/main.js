@@ -65,9 +65,10 @@ function countdown() {
 // funzione reset
 
 function resetCount() {
-    number.innerText = counter = start;
-    countdownStarted = false;
-    clearInterval(myCountdown);
+    // number.innerText = counter = start;
+    // countdownStarted = false;
+    // clearInterval(myCountdown);
+    location.reload();
 }
 
 // funzione confetti
