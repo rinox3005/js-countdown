@@ -29,3 +29,10 @@ button {
     font-size: 3.125rem;
     margin-bottom: 1.5rem;
 }
+
+canvas {
+    overflow-y: hidden;
+    overflow-x: hidden;
+    width: 100%;
+    margin: 0;
+}
