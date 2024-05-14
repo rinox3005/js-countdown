@@ -52,13 +52,14 @@ resetCountdown.addEventListener('click', function () {
 // funzione countdown
 
 function countdown() {
-    if (counter > 1) {
-        counter--;
-        number.innerText = counter;
-    } else if (counter === 1) {
+    if (counter === 0) {
         number.innerText = 'Buon Anno!';
         clearInterval(myCountdown);
         Draw();
+    } else {
+        number.innerText = counter;
+        counter--;
+
     }
 }
 
